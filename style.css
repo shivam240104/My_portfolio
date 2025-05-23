@@ -38,3 +38,27 @@ body{
 .navbar a :hover{
    color:#0ef;
 }
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height:100vh;
+    background: url(Purple\Illustrated\ Mountain\ Desktop\Wallpaper.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h1{
+ font-size: 56px;
+    font-weight: 700;  
+    margin: -3px 0; 
+}
